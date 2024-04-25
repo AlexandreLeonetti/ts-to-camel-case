@@ -13,6 +13,6 @@ npm install @leonetti/ts-to-camel-case
 ```js
 import {toCamelCase } from '@leonetti/ts-to-camel-case';
 
-toCamelCase("some string"); // 1
+toCamelCase("some string"); // someString 
 
 ```
