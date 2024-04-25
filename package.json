@@ -1,0 +1,28 @@
+{
+  "name": "@leonetti/ts-to-camel-case",
+  "version": "0.0.1",
+  "description": "to camel case using typescript",
+  "repository": "alexandreleonetti/ts-to-camel-case",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "type",
+    "types"
+  ],
+  "author": {
+    "name": "Alex Leonetti",
+    "url": "https://github.com/AlexandreLeonetti"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@types/to-space-case": "^1.0.2",
+    "to-space-case": "^1.0.0"
+  }
+}
